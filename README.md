@@ -22,5 +22,10 @@ The goal is to gradually build a mini self hosted environment with tools for ad-
 - `examples/` - sample config files
 - `.gitignore` - files to exclude from git
 
+## Docs Links
+
+- [VirtualBox Setup](./docs/virtualbox.md)  
+- [Pi-hole Setup](./docs/pihole.md)
+
 ## License
 This repository is released under the MIT License. See `LICENSE`.
