@@ -10,7 +10,7 @@
 ## Storage
 - Attach the Ubuntu Server ISO to the M's optical drive in Settings -> Storage
 
-![VirtualBox-VM-settings] (./screenshots/vm-settings.png)
+![VirtualBox-VM-settings](./screenshots/vm-settings.png)
 
 ## Network (important)
 - **Recommended:** Bridged Adapter - VM gets an IP from your router. It is regarded as a seperate machine in your LAN.
@@ -22,7 +22,7 @@
 - After installation the the login page is displayed.
 - The initial login is the root login with the password being the one you set during the setup.
 
-![Ubuntu-login] (./screenshots/vm-login.png)
+![Ubuntu-login](./screenshots/vm-login.png)
 
 ## Notes about interfaces
 - Interface names may vary (`ens33`, `enp0s3`, etc)
