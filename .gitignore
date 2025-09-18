@@ -1,0 +1,19 @@
+# VirtualBox images
+*.vdi
+*.vmdk
+*.ova
+*.box
+*.img
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets/
+*.pem
+*.key
+.env
+
+#Editor
+.vscode/

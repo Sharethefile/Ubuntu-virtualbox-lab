@@ -16,11 +16,11 @@ The goal is to gradually build a mini self hosted environment with tools for ad-
 - Jellyfin for media server
 
 ## Project Layout
-- 'docs/' - guide for each service and VirtualBox tips
-- 'script/' - helper scripts
-- 'screenshots/' - images used in docs
-- 'examples/' - sample config files
-- '.gitignore' - files to exclude from git
+- `docs/` - guide for each service and VirtualBox tips
+- `script/` - helper scripts
+- `screenshots/` - images used in docs
+- `examples/` - sample config files
+- `.gitignore` - files to exclude from git
 
 ## License
-This repository is released under the MIT License. See 'LICENSE'.
+This repository is released under the MIT License. See `LICENSE`.
