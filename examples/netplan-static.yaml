@@ -1,6 +1,6 @@
 **Important:** replace `enp0s3` with the interface name you see from `ip a`, and replace the `addresses` / `gateway4` with your LAN settings:
 
-```yaml
+yaml
 network:
   version: 2
   renderer: networkd
@@ -12,7 +12,7 @@ network:
       gateway4: 192.168.1.1
       nameservers:
         addresses: [1.1.1.1, 8.8.8.8]
-```
+
 #Inside your VM
 sudo cp examples/netplan-static.yaml /etc/netplan/50-netcfg.yaml
 sudo netplan apply
