@@ -24,8 +24,9 @@ sudo bash basic-install.sh
 ## After install
 - The web admin UI wiil be at: `http://<VM_IP>/admin`
 - To set/change the admin password: pihole -a -p
+- Log in using the password you choose.
 
-![Pi-hole Dashboard](./screenshots/pihole-dashboard.png)
+![Pi-hole Dashboard](https://raw.githubusercontent.com/Sharethefile/Ubuntu-virtualbox-lab/main/screenshots/pihole-dashboard.png)
 
 ## Network-wide ad blocking
 - Configure your router to use <VM_IP> as DNS -> all devices on LAN use Pi-hole
