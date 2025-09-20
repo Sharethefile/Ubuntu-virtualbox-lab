@@ -32,6 +32,7 @@ sudo wg genkey | sudo tee client_private.key | sudo wg pubkey | sudo tee client_
 ```
 
 - This generates four files inside the wireguard directory
+
     - server_private.key
     - server_public.key
     - client_private.key
@@ -44,7 +45,7 @@ sudo wg genkey | sudo tee client_private.key | sudo wg pubkey | sudo tee client_
 sudo nano /etc/wireguard/wg0.conf
 ```
 
-- Put your interface and peers here. (See ./examples/wireguard-server-config.conf for more)
+- Put your interface and peers here. See `./examples/wireguard-server-config.conf` for more
 
 ## Build your client config
 - Go into wireguard client config file
@@ -52,7 +53,7 @@ sudo nano /etc/wireguard/wg0.conf
 ```bash
 sudo nano /etc/wireguard/client.conf
 ```
-- Put your interface and peers here. (See ./examples/wireguard-client-config.conf for more)
+- Put your interface and peers here. See `./examples/wireguard-client-config.conf` for more
 
 ## Enable wireguard as a service 
 
