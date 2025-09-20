@@ -87,9 +87,9 @@ sudo wg show
 - You should see your mobile device listed under peer.
 
 ## Make a Shared folder.
-- Enable guest additions in virtualbox. (See ./scripts/vbox-guest-tools.sh)
-- Add a shared folder in virtualbox. (See ./docs/virtualbox.md)
-- Mount the shared folder inside your VM. (See ./scripts/mount.sh)
+- Enable guest additions in virtualbox. See `./scripts/vbox-guest-tools.sh`
+- Add a shared folder in virtualbox. See `./docs/virtualbox.md`
+- Mount the shared folder inside your VM. See `./scripts/mount.sh`
 
 ## Access the folder from your mobile device
 - Install **CX File Explorer** through Google Play Store on your mobile device.
