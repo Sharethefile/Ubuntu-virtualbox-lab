@@ -17,6 +17,17 @@
 - Settings -> Network -> Adapter 1 -> Attached to: **Bridged Adapter** -> Advanced -> Adapter Type: Intel Pro/1000 MT Desktop -> check Cable Connected
 - **Alternative:** NAt with port forwarding - more complex and limits Pi-hole being reached by host ports only.
 
+## Add a shared folder (For wireguard)
+- In VirutalBox Manager -> Select your VM -> Settings -> Shared Folder
+- Click the add icon
+    - Folder Path: Pick a folder on your host. (eg: C:\Shared)
+    - folder Name: Pick a name for the folder. (eg: Shared)
+    - Check **Auto-mount** and **Make Permanent**
+- This creates a shared folder between your VM and host.
+- You can then access this folder from your mobile device through wireguard.
+
+![Shared-folder](https://raw.githubusercontent.com/Sharethefile/Ubuntu-virtualbox-lab/main/screenshots/shared-folder.png)
+
 ## Starting the VM and login
 - Click on the gren start button after the VM is created and follow the setup instructions for installing Ubuntu Server.
 - After installation the the login page is displayed.
