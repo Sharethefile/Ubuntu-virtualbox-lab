@@ -27,6 +27,7 @@ The goal is to gradually build a mini self hosted environment with tools for ad-
 - [VirtualBox Setup](./docs/virtualbox.md)  
 - [Pi-hole Setup](./docs/pihole.md)
 - [WireGuard Setup](./docs/wireguard.md)
+- [Nextcloud Setup](./docs/nextcloud.md)
 
 ## License
 This repository is released under the MIT License. See `LICENSE`.
