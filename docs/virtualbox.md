@@ -1,5 +1,9 @@
 # VirtualBox: Create an Ubuntu Server VM
 
+This guide documents how to configure the Ubuntu Server VM.
+
+---
+
 ## Recommended VM Settings
 - Name: ubuntu-server
 - Type: Linux

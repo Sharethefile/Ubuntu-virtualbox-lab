@@ -27,7 +27,7 @@ sudo apt install php php-gd php-json php-mysql php-curl php-mbstring php-intl ph
 ```bash
 sudo mysql -u root -p
 ```
-- To create database and user see './examples/database.sql'
+- To create database and user see './examples/nextcloud-user.sql'
 
 ## Download Nextcloud
 

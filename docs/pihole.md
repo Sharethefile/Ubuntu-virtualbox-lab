@@ -1,5 +1,9 @@
 # Pi-hole on Ubuntu Server
 
+This guide documents how to install Pi-hole inside the Ubuntu Server VM.
+
+---
+
 ## What Pi-hole does
 - Pi-hole acts a DNS sinkhole.
 - It blocks ads for every device pointed at it.
