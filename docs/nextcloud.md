@@ -19,7 +19,7 @@ sudo apt install php php-gd php-json php-mysql php-curl php-mbstring php-intl ph
 - This install the dependencies like Apache, MariaDB, and all the php modules that Nextcloud needs.
 
 ## Run secure MariaDB (Optional)
-- A guided installation script to make your database safer. (Built-in script) See './scripts/secure-install.sh'
+- A guided installation script to make your database safer. (Built-in script) See `scripts/secure-install.sh`
 - Used to set a root password, remove anonymous user, remove test database, etc.
 
 ## Log into MariaDB and create a database and user
@@ -27,7 +27,7 @@ sudo apt install php php-gd php-json php-mysql php-curl php-mbstring php-intl ph
 ```bash
 sudo mysql -u root -p
 ```
-- To create database and user see './examples/nextcloud-user.sql'
+- To create database and user see `examples/database.sql`
 
 ## Download Nextcloud
 
@@ -48,7 +48,7 @@ sudo chmod -R 755 /var/www/html/nextcloud
 ## Configure Apache
 
 - Create /etc/apache2/sites-avilable/nextcloud.conf
-- Configure your port, localdomain and grant access to nextcloud directory. See './examples/nextcloud-setup.conf
+- Configure your port, localdomain and grant access to nextcloud directory. See `examples/nextcloud-setup.conf`
 - Enable modules and sites
 
 ```bash
@@ -66,7 +66,7 @@ http://10.10.0.1:8080
 ```
 - You will see the NextCloud setup page.
 
-![nextcloud-setup](https://raw.githubusercontent.com/Sharethefile/Ubuntu-virtualbox-lab/main/screenshots/nexcloud-login.png)
+![nextcloud-setup](https://raw.githubusercontent.com/Sharethefile/Ubuntu-virtualbox-lab/main/screenshots/nextcloud-login.png)
 
 - Fill the details
     - Create a admin user
