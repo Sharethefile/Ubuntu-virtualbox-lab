@@ -120,8 +120,6 @@ sudo bash basic-install.sh
 
 ![Pi-hole Dashboard](https://raw.githubusercontent.com/Sharethefile/Ubuntu-virtualbox-lab/main/screenshots/pihole-dashboard.png)
 
-![Pihole-Dashboard] (./screenshots/pihole-dashboard.png)
-
 ## Network-wide ad blocking
 - Configure your router to use <VM_IP> as DNS -> all devices on LAN use Pi-hole
 
